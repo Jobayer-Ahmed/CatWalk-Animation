@@ -1,0 +1,25 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.heroImage {
+	background-image: url(ok.png);
+	width: 400px;
+	height: 200px;
+	margin-top: 200px;
+	background-position-x: 0;
+	background-position-y: 0;
+	animation: heroWalk 3s steps(12) infinite;
+	margin-left: 966px;
+
+}
+
+@keyframes heroWalk {
+	0% {background-position: 0 0,}
+	100% {
+		background-position: 0 -2400px;
+		transform: translate(-1700px, 0px);
+	}
+}
